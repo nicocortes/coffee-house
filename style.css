@@ -1,0 +1,518 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+  }
+
+  html{
+
+    scroll-behavior: smooth;
+  }
+
+  
+
+  
+  
+  .navv{
+      width: 100%;
+      position: fixed;
+      top: 0;
+      margin: 0;
+      padding: 0;
+      z-index: 2;
+      background-color: rgba(109, 66, 45, 1);
+  } 
+
+
+  /* Hover nav*/
+
+  .border-transition::after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: white;
+    transition: all 0.2s linear;
+  }
+  .border-transition:hover::after {
+    width: 80%;
+  }
+
+  .activado{
+    border-bottom: 2px white solid;
+  }
+
+
+.carousel-inner img{
+
+max-height: 70vh;
+object-fit: cover;
+
+}
+body{
+    background-color: #ececeb;
+}
+
+
+.container-receta{
+    display: flex;
+    background-color: #ececeb;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+   
+}
+
+
+
+.container-portadas {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+  
+}
+
+.container-portadas img{
+  top: 0;
+  margin: 0;
+  width: 32vw;
+  
+}
+
+.portadafrio img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.portadatrago img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.portadacaliente img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    
+}
+
+.redes{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
+}
+
+
+.footer-index{
+    
+
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #6D422D;
+    color: white;
+}
+
+.footer-recetas{ /* footer de recetas*/
+  margin-top: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #6D422D;
+  color: white;
+
+} 
+
+
+.d-flex{
+
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+
+.container-recetafria{
+
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-evenly;
+filter: drop-shadow(0 0 0.75rem rgba(109, 66, 45));
+margin-top: 10%;
+
+}
+
+.container-recetacaliente{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    filter: drop-shadow(0 0 0.75rem rgba(109, 66, 45));
+    margin-top: 10%;
+    
+    
+    }
+
+    .container-recetaalcohol{
+
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      filter: drop-shadow(0 0 0.75rem rgba(109, 66, 45));
+      margin-top: 10%;
+        
+        
+        }
+
+
+
+.fotopersonal{
+    width: 180px;
+    object-fit: cover;
+    
+} 
+
+.sobre-nosotros{
+object-fit: cover;
+
+}
+
+
+
+
+
+  .container-flatwhite{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+    
+    
+  } 
+
+  
+
+  h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+
+  .container-videoreceta{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+.body-back-flat{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/RecetaCaliente/portadaflatwhite.jpg);
+  
+}
+
+.body-back-moca{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/RecetaCaliente/portada-irlandes.jpeg);
+  
+
+}
+
+.body-back-cortado{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/RecetaCaliente/portadacortadoazucarmoreno.png);
+  
+}
+
+.body-back-capuavellana{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/RecetaCaliente/capuavellana.jpg);
+  
+}
+
+.body-back-negroni{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/RecetaAlcohol/negroni\ de\ cafe.jpg);
+  
+}
+
+.body-back-martini{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/RecetaAlcohol/Martini.jpg);
+  
+}
+
+.body-back-alfombra{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/RecetaAlcohol/alfombraroja.jpg);
+
+}
+
+.body-back-cafeirlandes{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/RecetaAlcohol/irlandes.jpg);
+  
+}
+
+.body-back-cafesalentina{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/RecetaFria/portadasalentina.jpg);
+  
+
+}
+.body-back-shakerato{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/RecetaFria/portadashakerato.jpg);
+  
+
+}
+
+.body-back-onice{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/RecetaFria/portadaonice.jpg);
+  
+
+}
+
+.body-back-icedlungo{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/RecetaFria/portadaicedlungo.jpg);
+  
+
+}
+
+/* Timeline holder */
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+/* Timeline vertical line */
+ul.timeline:before {
+  content: ' ';
+  background:rgb(243, 240, 236);
+  display: inline-block;
+  position: absolute;
+  left: 16px;
+  width: 4px;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+li.timeline-item {
+  margin: 20px 0;
+  max-width: 960px;
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+  border-top: 0.5rem solid transparent;
+  border-right: 0.5rem solid rgb(243, 240, 236);;
+  border-bottom: 0.5rem solid transparent;
+  display: block;
+  position: absolute;
+  left: 2rem;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+  content: ' ';
+  background:rgb(243, 240, 236);
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid rgb(243, 240, 236);;
+  left: 11px;
+  width: 14px;
+  height: 14px;
+  
+  
+}
+
+
+/* Clases inicio sesion - registro - 404 */
+
+.main-inisesion{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-image: url(./img/fondo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 80px;
+}
+
+.body-set-coffee{
+  display: flex;
+  flex-direction: column;
+  background-color: #ececeb;
+  height: 100vh;
+}
+
+.main-contact{
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.main-error404{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 80px;
+}
+
+.form-button {
+  background-color: black;
+  border-color: black;
+}
+
+.form-button:hover {
+  background-color: #6d422d;
+  border-color: #6d422d;
+}
+
+.label-form {
+  border: none;
+}
+
+.form-forgetpass {
+  font-style: italic;
+  color: rgb(100, 100, 100);
+}
+
+.form-forgetpass:hover {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+
+.form-hr {
+  height: 2px;
+  width: 20%;
+  margin: auto;
+  background-color: rgb(114, 114, 114);
+  border: none;
+}
+
+textarea{
+    resize: none;
+}
+
+.contact-banner{
+  position: relative;
+  text-align: center;
+  height: 200px;
+  
+}
+
+.contact-banner img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.banner-tittle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.img-error404{
+    width: 60%;
+    filter: opacity(0.9);
+  }
+
+.container-error404--title{
+  font-size: 60px;
+}
+
+.container-error404--redirect{
+  color: #6d422d;
+}
+
+.container-error404--redirect:hover{
+  color: #6d422d;
+}
+
+@media (min-width: 768px) {
+  .form-register{
+    border-left: 1px solid white;
+  }  
+
+  
+}
+
+@media (max-width: 320px) {
+  .main-inisesion{
+    margin: 50px auto;
+  }  
+
+  .main-contact{
+    margin-bottom: 200px;
+  } 
+
+  
+}
